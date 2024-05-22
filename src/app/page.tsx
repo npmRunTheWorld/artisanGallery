@@ -16,14 +16,14 @@ const mockImage = mockData.map((image, index) => ({
 
 export default function HomePage() {
   return (
-    <main className="">
-      <div className="d-flex flex-wrap">
-        {mockImage.map((image) => (
-          <div key={image.id} className="w-1/2 p-4">
+    <main className="flex justify-center align-middle">
+      <div className="flex flex-wrap gap-4">
+        {[...mockImage, ...mockImage, ...mockImage].map((image) => (
+          <div key={image.id} className="">
             <Image
               src={image.url}
               alt="image"
-              className="w-full"
+              className="h-48 w-48"
               width={500}
               height={500}
             />
