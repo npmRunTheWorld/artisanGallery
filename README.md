@@ -5,6 +5,7 @@
 
 - [ x ] Make it deploy (vercel)
 - [ x ] Scaffold basic ui with mock data
+- [ x ] Tidy up build process (add --turbo to npm run dev, and add build ignores to the next-config);
 - [  ] Actually set up database (vercel postgres)
 - [  ] Attach database to UI
 - [  ] Add authentication (w/clerk)
